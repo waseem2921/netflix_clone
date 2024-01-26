@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url('homebackground.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: max(1200px, 100vw);
+    height: 720px;
+    position: relative;
+}
+
+.box {
+    height: 720px;
+    width: 100%;
+    opacity: 0.64;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    margin: auto;
+    max-width: 75vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.maininfo {
+    font-family: 'Martel sans', sans-serif;
+    height: 650px;
+    position: relative;
+    z-index: 10;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+    padding: 0 30px;
+}
+
+.maininfo> :first-child {
+    font-weight: bolder;
+    font-size: 50px;
+    transition: entry ;
+}
+
+.maininfo> :nth-child(2) {
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.maininfo> :nth-child(3) {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+hr {
+    height: 10px;
+    background-color: rgb(35, 35, 35);
+    border: 0px;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(23,23,23,0.5);
+    color: white;
+    border: 1px solid rgb(242, 238, 238);
+    cursor: pointer;
+    padding: 3px 11px;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 400;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.main input {
+   padding: 11px 21px 11px 11px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+    border: 1px solid rgba(240,240,240,0.5);
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.first,
+.third{
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+.first h2,
+.third h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.first p
+.third p{
+    font-size: 2.1rem;
+    font-family: 700;
+}
+.secimg,
+.secimg3{
+    position: relative;
+}
+.secimg img{
+    width: 35vw;
+    position: relative;
+    z-index: 10;
+}
+.secimg3 img{
+    width: 45vw;
+    height: 28vw;
+    position: relative;
+    z-index: 10;
+}
+.secimg video{
+    position: absolute;
+    width: 30.5vw;
+   top:51px;
+   right: 0;
+}
+.secimg3 video{
+    position: absolute;
+    width: 29vw;
+    top: 51px;
+    right: 0;
+    margin-right: 120px;
+}
+.second,
+.fourth{
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+.second h2,
+.fourth h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.second p,
+.fourth p{
+    font-size: 1.3rem;
+    font-family: 600;
+}
+.secimg2 img
+.secimg4 img{
+    width: 35vw;
+    position: relative;
+    z-index: 10;
+    
+}
+.faq{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+.faq h2{
+    text-align: center;
+    font-weight: 800;
+    font-size: 3rem;
+}
+.faqbox{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d2d2d;
+    padding: 2rem;
+    max-width: 70vw;
+    margin: 10px auto;
+    font-size: 1.7rem;
+    
+}
+.faqbox:hover{
+    background-color: #5f5e5e;
+    color: white;
+}
+.foote{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.email input {
+    padding: 21px 170px 21px 21px;;
+      font-size: 20px 40px;
+      border-radius: 5px;
+      background-color: rgba(23, 23, 23, 0.7);
+      color: white;
+      border: 1px solid rgba(240,240,240,0.5);
+  }
+.footer{
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    padding: 2%;
+}
+.footer li{
+    list-style-type: none;
+    text-decoration: underline;
+    font-size: medium;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
